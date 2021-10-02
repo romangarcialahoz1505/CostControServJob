@@ -15,6 +15,5 @@ tableextension 55200 "MFD Job CCJ" extends Job
             CalcFormula = count(Job where("Item Job No." = field("Item Job No.")));
 
         }
-
     }
 }
